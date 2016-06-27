@@ -1,0 +1,11 @@
+= simple_form_for(@job, html: {class: 'form-horizontal'}) do |f|
+  =f.input :title, label:"Job Title"
+  %br/
+  =f.input :description, label: "Job Description"
+  %br/
+  =f.input :company, label: "Your Company"
+  %br/
+  =f.input :url, label: "Link to Job"
+  %br/
+  %br/
+  =f.button :submit
